@@ -1,0 +1,136 @@
+/* ----FONTS---- */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ----GENERALS---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #17a086;
+}
+
+img {
+    display: inline-block;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+/* ----WRAPPER---- */
+
+.wrapper {
+    padding: 40px 70px 200px 70px;
+    border-radius: 5px;
+    background-image: url("../img/simpleWheels.jpg");
+    background-size: 650px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: top 230px left 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wrap-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.wrap-top-title {
+    font-weight: 700;
+}
+
+.wrap-top-icon {
+    padding: 12px 12px 8px 12px;
+    border: 1px solid rgb(216, 208, 208);
+    border-radius: 50%;
+}
+
+.wrap-top-subtitle {
+    margin-bottom: 40px;
+    font-weight: 500;
+    color: #aca5a5;
+}
+
+.wrap-bottom-text {
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #6E6E6E;
+}
+
+.wrap-total-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7F7F81;
+}
+
+.prices {
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.prices-1 {
+    margin-left: 257px;
+}
+
+.prices-2 {
+    margin-left: 278px;
+}
+
+.prices-3 {
+    margin-left: 409px;
+}
